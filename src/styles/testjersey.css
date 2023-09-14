@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+.hero1 {
+  display: flex;
+  max-width: 1500px;
+  /* margin: 0 auto; */
+  align-items: center;
+  height: calc(100vh - 72px);
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.herocontent1 {
+  flex-direction: column;
+  gap: 36px;
+  justify-content: space-between;
+  width: 100%;
+  text-align: right;
+}
+
+.hero1 h1 {
+  font-weight: 800;
+  text-align: right;
+  font-size: 111px;
+  line-height: 111px;
+}
+
+.hero1 p {
+  font-weight: 600;
+  color: var(--gray);
+  text-align: right;
+}
+
+.herobtn1 {
+  display: flex;
+  gap: 20px;
+  text-align: right;
+  justify-content: flex-end; 
+}
+
+.secbtn1 {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+
+.shopping1 p {
+  font-size: 14px;
+  text-align: right;
+}
+
+.brandicon1 {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.heroimg1 {
+  display: flex;
+  justify-content: space-between;
+}
